@@ -29,6 +29,13 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/registration_3d</connection>
+		<developerConnection>scm:git:git@github.com:fiji/registration_3d</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/registration_3d</url>
+	</scm>
+
 	<repositories>
 		<!-- NB: for project parent, in case of partial checkout -->
 		<repository>
