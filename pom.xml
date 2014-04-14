@@ -29,6 +29,11 @@
 		</dependency>
 	</dependencies>
 
+	<ciManagement>
+		<system>Jenkins</system>
+		<url>http://jenkins.imagej.net/job/registration_3d/</url>
+	</ciManagement>
+
 	<scm>
 		<connection>scm:git:git://github.com/fiji/registration_3d</connection>
 		<developerConnection>scm:git:git@github.com:fiji/registration_3d</developerConnection>
