@@ -27,20 +27,21 @@ package registration3d;
  * @version 1.0
  */
 
+import edu.mines.jtk.dsp.FftComplex;
+import edu.mines.jtk.dsp.FftReal;
 import ij.IJ;
-import ij.plugin.BrowserLauncher;
-import ij.plugin.PlugIn;
-import ij.process.ImageProcessor;
 import ij.ImagePlus;
 import ij.ImageStack;
 import ij.WindowManager;
 import ij.gui.GenericDialog;
 import ij.gui.MultiLineLabel;
-
+import ij.plugin.BrowserLauncher;
+import ij.plugin.PlugIn;
 import ij.process.ByteProcessor;
 import ij.process.ColorProcessor;
-import ij.process.ShortProcessor;
 import ij.process.FloatProcessor;
+import ij.process.ImageProcessor;
+import ij.process.ShortProcessor;
 import ij.process.StackConverter;
 
 import java.awt.Color;
@@ -49,9 +50,6 @@ import java.awt.Cursor;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import edu.mines.jtk.dsp.FftComplex;
-import edu.mines.jtk.dsp.FftReal;
 
 public class Fast_FourierTransform implements PlugIn
 {
