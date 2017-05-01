@@ -64,8 +64,7 @@ public class Fast_FourierTransform implements PlugIn
     /**
      * This method will be called when running the PlugIn, it coordinates the main process.
      *
-     * @param args UNUSED
-
+     * @param arg UNUSED
      * @author   Stephan Preibisch
      */
     public void run(String arg)
@@ -2012,20 +2011,21 @@ public class Fast_FourierTransform implements PlugIn
 
         /**
          * Return the value at an arbitrary position, where the image data is flipped like that:
-         *
+         * <pre>
          * Size = 3
          *
-         * -4 -> 2
-         * -3 -> 2
-         * -2 -> 1
-         * -1 -> 0
-         * 0 -> 0
-         * 1 -> 1
-         * 2 -> 2
-         * 3 -> 2
-         * 4 -> 1
-         * 5 -> 0
-         * 6 -> 2
+         * -4 -&gt; 2
+         * -3 -&gt; 2
+         * -2 -&gt; 1
+         * -1 -&gt; 0
+         * 0 -&gt; 0
+         * 1 -&gt; 1
+         * 2 -&gt; 2
+         * 3 -&gt; 2
+         * 4 -&gt; 1
+         * 5 -&gt; 0
+         * 6 -&gt; 2
+         * </pre>
          *
          * @param x int x position
          * @param y int y position
